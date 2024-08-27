@@ -28,9 +28,9 @@ main {
 .pokemon__image{
     position: absolute;
     left: 50%;
-    bottom: 50%;
-    transform: translate(-70%,20%);
-    height: 15%;
+    bottom: 55%;
+    transform: translate(-63%,20%);
+    height: 18%;
 }
 
 .pokemon__data{
@@ -38,7 +38,7 @@ main {
     font-weight: 600;
     color: #aaa;
     top: 54.5%;
-    right: 37%;
+    right: 27%;
     font-size: clamp(8px, 5vw, 25px);
 }
 
@@ -46,6 +46,12 @@ main {
     color: #3a444d;
     text-transform: capitalize;
 }
+
+.pokemon__number{
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
 
 .form {
     position:absolute;
@@ -72,15 +78,12 @@ main {
     bottom: 10%;
     left: 50%;
     width: 65%;
-    background-color:red;
     transform: translate(-57%, 0);
     display: flex;
     gap: 15px;
 }
 
 .button {
-   
-   
     width: 65%;
     padding: 4%;
     border: 2px solid #000;
