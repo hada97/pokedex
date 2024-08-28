@@ -4,15 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oxanium', cursive;
-}
-
-/* Adicione este CSS ao seu arquivo style.css */
-body{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Oxanium', 'Arial', 'Helvetica', sans-serif;
 }
 
 .main{
@@ -21,27 +13,28 @@ body{
     justify-content: center; /* Centraliza verticalmente */
     align-items: center;     /* Centraliza horizontalmente */
     height: 100vh;           /* Altura total da viewport */
-    margin: 0;               /* Remove margens padrão */
-    padding: 0;              /* Remove padding padrão */
+    margin: 0;               /* Remove margens padrão */           
     text-align: center;      /* Centraliza o texto dentro do main */
+  
 }
 
 .pokedex {
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
     height: auto; 
-    max-width: 425%;  
-    
+    max-width: 100%;  
+
 }
 
-
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background: linear-gradient(to bottom, #161616, #c0bdc0);
     min-height: 100vh;
 }
 
-main {
-    display: inline-block;
+main{
     margin-top: 2%;
     padding: 15px;
     position: relative;
