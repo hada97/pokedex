@@ -4,7 +4,7 @@
 
 Esta é uma aplicação desenvolvida em HTML, CSS e Java Script que implementa o consumo de uma API (PokéAPI).
 
-[Veja como ficou!]()
+[Veja como ficou!](https://hada97.github.io/pokedex/)
 
 ## ⚙️ Funcionalidades
 
